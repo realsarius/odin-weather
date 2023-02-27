@@ -1,0 +1,14 @@
+@import './variables';
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 300px;
+  background: lightblue;
+  width: 50vw;
+  font-size: $weatherFontSize;
+  border-radius: $borderRadius;
+}

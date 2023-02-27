@@ -4,9 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Weather App</title>
   </head>
   <body>
-    <div class="root">Something</div>
+    <div class="root">
+      <form>
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Enter a city..."
+        />
+        <button class="searchBtn">Search</button>
+      </form>
+      <div class="err"></div>
+      <div class="result">
+        <div id="loader" style="display: none">Loading...</div>
+        <div class="city-name"></div>
+        <div class="weather"></div>
+        <div class="wind"></div>
+      </div>
+    </div>
   </body>
 </html>

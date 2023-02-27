@@ -105,3 +105,4 @@ dist
 package-lock.json
 .eslintrc.json
 .gitignore
+src/config.js
